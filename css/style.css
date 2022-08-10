@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+background-color: #eee;
+}
+
+.hero-section h2 {
+ font-family: Ink Free;
+}
+
+.hero-section img {
+max-width: 80%;
+justify-content: space-between !important;
+}
+.about-section .p-learn {
+    font-family: Ink Free;
+}
+
+ .about-section .about-image {
+    background: url(../img/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-2-section img {
+    max-width: 100%;
+}
+
+.about-callus {
+  margin-top: 95% !important;
+}
+
+#why-choose-yummy {
+    background-color: #eee;
+    transition: all 0.4s ease-in-out;
+}
+
+#why-choose-yummy .card:hover {
+    transform: scale(1.15);
+}
+
+#counting-section .stats-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/stats-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0;
+    
+}
+
+#menu-section .p-menu {
+    font-family: Ink Free;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.d-flex {
+    text-decoration: none !important; 
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    font-size: 24px;
+    color: #eee !important;
+  }
+
+  .menu-image  img {
+max-width: 80%;
+  }
+  #menu-section .price {
+    color: rgb(223, 49, 49);
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+.Testimonial-section  .p-testimony{
+    font-family: Ink Free;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.testimony {
+    display: flex;
+ justify-content: space-between;
+    border-left: 3px solid rgb(223, 49, 49) ;
+    padding: 20px;
+}
+
+.testimony-text 
+{font-size: 18px;
+    max-width: 100%;
+}
+
+.testimony-person img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-left: 50%;
+
+}
